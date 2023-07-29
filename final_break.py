@@ -283,7 +283,7 @@ target_network.to(device)
 # created a ReplayBuffer object and saved some information in the object by playing the agent. It is better to populate some information in the Buffer, hence this step
 #filling experience replay with some samples using full random policy
 exp_replay = ReplayBuffer(10**6)
-for i in range(200):
+for i in range(4000):
     play_and_record(state, agent, env, exp_replay, n_steps=10**2)
     print( "Replay Buffer : i : ", i)
     if len(exp_replay) == 10**6:
