@@ -21,5 +21,5 @@ Saving and Evaluation: The code saves the model and reward history at regular in
 
 ===============================================================================================
 
- While learning about CNN and RL i made handwritten notes and are uploaded in this repository.
+ While learning about CNN and RL i made handwritten notes and are uploaded in this repository.The demo video has been shown in the video.
   
